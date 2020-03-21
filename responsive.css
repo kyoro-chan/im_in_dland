@@ -1,4 +1,4 @@
-@media (max-width: 1000px) { 
+@media (max-width: 850px) { 
 
     .back{
         background-image: url("IMG_baloon_forphone.jpg");
@@ -6,8 +6,9 @@
     }
 
     .title-text{
-        font-size: 120px;
+        font-size: large;
         padding-left: 25px;
+        text-align: center;
     }
 
     .plan-left{
@@ -19,8 +20,13 @@
         width: 100%;
     }
 
+    .plan-left{
+        padding-left: 50px;
+        height: 900px;
+        width: auto;
+    }
     .plan-right h3{
-        font-size: 100px;
+        font-size: 75px;
     }
 
     .first-choise li{
@@ -31,8 +37,8 @@
     }
 
     .unshow, .unshow-pure, .unshow-bbm, .unshow-second{
-        color: teal;
-        font-size: 100px;
+        color: tomato;
+        font-size: 80px;
     }
 
     .reset-btn{
@@ -48,8 +54,8 @@
     .modal {
         top: 150px;
         left: 30px;
-        width: 750px;
-        height: 750px;
+        width: 670px;
+        height: 670px;
     }
     
     .modal h2{
