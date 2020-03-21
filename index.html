@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Dランドにやってきた</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="back">
+        <div class="contaner">
+            <div class="title">
+                <h1>東京Dランドにやってきた！</h1>
+            </div>
+        </div>        
+        <div class="contaner">
+            <div class="plans">
+                <div class="plan">
+                    <div class="plan-left">
+                        <img class="img" id="entrance" height= "480px" width= "390px" src="IMG_entrance.jpg">
+                        <img class="img arnest" height= "480px" width= "390px" src="IMG_arnest.jpg">
+                        <img class="img countrybare" height= "480px" width= "390px" src="IMG_countrybare.jpg">
+                    </div> 
+                </div>   
+                <div class="plan">
+                    <div class="plan-right">
+                        <h3>――何して楽しもう♪――</h3>
+                        <ul class="first-choise">
+                            <li class="choise-at" id="contrybear-show"><span class="fas fa-hand-point-right"></span>アトラクション</li>
+                            <li class="choise-show" id="show-modal-show"><span class="fas fa-hand-point-right"></span>ショー</li>
+                        </ul>
+                    </div>
+                    <div class="plan-right unshow">
+                        <div class="unshow-pure">カントリーベアシアター<br>へ行こう♬</div>
+                        <div class="unshow-bbm">BBMは混んでるから<br>カントリーベアシアター<br>へ行こう</div>
+                        <div class="unshow-second">come again</div>
+                        <div class="reset-btn">計画変更</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="modal-wrapper" id='show-modal'>
+            <!-- 選択モダール -->
+            <div class="modal" id="show-form">
+              <div class="modal-form">
+                <h2>どうやってショーを見る？</h2>
+                <img class="modal-img" id="showimg" src="IMG_show.jpg" height="200px" width="300px">
+                <img class="modal-img" id="atimg" src="IMG_at.jpg" height="200px" width="300px">
+                <form action="#">
+                  <div class="show-btn" id="first-btn">自分も手拍子で参加したい</div>
+                  <div class="show-btn" id="second-btn">写真に収めたい</div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
