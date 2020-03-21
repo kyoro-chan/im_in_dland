@@ -19,6 +19,16 @@
         width: 100%;
     }
 
+    .plan-right{
+        font-size: 60px;
+    }
+
+    .first-choise li{
+        font-size: 20px;
+        text-align: center;
+        padding:30px, 15px;
+    }
+
     .unshow{
         color: teal;
         font-size: 60px;
