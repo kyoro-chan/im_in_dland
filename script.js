@@ -3,6 +3,7 @@ $(function(){
     var count = 1;
 
     $('#contrybear-show').click(function(){
+        $('#modal-titole').text('どのアトラクションにする？')
         $("#first-btn").text('ライド系').addClass('rideat');
         $("#second-btn").text('シアター系');
         $('#showimg').css('display', 'none');
