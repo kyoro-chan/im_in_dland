@@ -7,28 +7,53 @@
 
     .title h1{
         font-size: 70px;
+        padding-left: 30px;
     }
+
+    .plan-left{
+        display: inline-block;
+        padding-left: 100px;
+    }
+    
     .plan{
         width: 100%;
     }
 
+    .unshow{
+        color: teal;
+        font-size: 60px;
+    }
+
+    .reset-btn{
+        color: white;
+        font-size: 40px;
+    }
 
     /* モーダル */
     .modal {
-        width: 700px;
-        height: 700px;
+        top: 100px;
+        left: 25px;
+        width: 610px;
+        height: 550px;
     }
     
     .modal h2{
         font-size: 50px;
-
     }
+
     .first-choise{
         width: 100%;
     }
+
     .show-btn {
         width: 100%;
-        font-size: 30px;
+        font-size: 40px;
+        padding:10px ;
+    }
+
+    .modal-img{
+        height: 400px;
+        width: 600px;
     }
 
 }
