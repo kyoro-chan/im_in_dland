@@ -20,11 +20,12 @@
     }
 
     .plan-right{
-        font-size: 60px;
+        font-size: 120px;
     }
 
     .first-choise li{
-        font-size: 20px;
+        margin-top: 30px;
+        font-size: 100px;
         text-align: center;
         padding:30px, 15px;
     }
@@ -42,13 +43,14 @@
     /* モーダル */
     .modal {
         top: 100px;
-        left: 25px;
-        width: 610px;
-        height: 550px;
+        left: 30px;
+        width: 700px;
+        height: 650px;
     }
     
     .modal h2{
         font-size: 50px;
+        text-align: center;
     }
 
     .first-choise{
