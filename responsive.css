@@ -7,7 +7,6 @@
 
     .title-text{
         font-size: 70px;
-        /*padding-left: 5px;*/
         text-align: center;
         padding-right: 200px;
     }
@@ -22,9 +21,9 @@
         padding-right: 200px;
     }
 
-    .img, .arnest, .countrybare{
+    #entrance, .arnest, .countrybare{
         height: 900px;
-        width: auto;
+        width: 730px;
     }
 
     .plan-right h3{
