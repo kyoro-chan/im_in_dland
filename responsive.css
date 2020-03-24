@@ -2,7 +2,7 @@
 
     .back{
         background-image: url("IMG_baloon_forphone.jpg");
-        /*background-size: cover;*/
+        background-size: cover;
     }
 
     .title-text{
@@ -41,6 +41,7 @@
     .unshow, .unshow-pure, .unshow-bbm, .unshow-second{
         color: tomato;
         font-size: 80px;
+        padding-top: 80px;
     }
 
     .reset-btn{
