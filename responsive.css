@@ -37,18 +37,12 @@
         border-radius: 10px;
     }
 
-    .unshow, .unshow-pure{
+    .unshow-pure, .unshow-bbm, .unshow-second{
         color: tomato;
         font-size: 80px;
-        margin-top: 80px;
-    }
-
-    .unshow-bbm, .unshow-second{
-        color: tomato;
-        font-size: 70px;
         margin-top: 50px;
     }
-    
+
     .reset-btn{
         color: white;
         font-size: 55px;
