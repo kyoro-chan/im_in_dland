@@ -45,6 +45,7 @@ $(function(){
         $(".reset-btn").fadeIn();
     });
 
+ 
     $('.reset-btn').click(function(){
        
         $('#entrance').fadeIn();
@@ -56,8 +57,12 @@ $(function(){
         $(".arnest").hide();
         $(".reset-btn").hide();
 
+        
+        $('#modal-titole').text('どうやってショーを見る？')
+        $('#showimg').fadeIn();
         $("#first-btn").text('自分も手拍子で参加したい').removeClass('rideat');
         $("#second-btn").text('写真に収めたい');
+        $('#atimg').css('display', 'none');
 
         count ++;
     });
