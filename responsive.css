@@ -2,7 +2,7 @@
 
     .back{
         background-image: url("IMG_baloon_forphone.jpg");
-        background-size: cover;
+        /*background-size: cover;*/
     }
 
     .title-text{
@@ -16,7 +16,7 @@
     }
 
     .plan-left{
-        display: inline-block;
+        /*display: inline-block;*/
         padding-left: 20px;
         padding-right: 200px;
     }
