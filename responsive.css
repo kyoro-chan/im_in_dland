@@ -36,6 +36,7 @@
         font-size: 65px;
         text-align: center;
         padding:30px, 15px;
+        border-radius: 10px;
     }
 
     .unshow, .unshow-pure, .unshow-bbm, .unshow-second{
@@ -45,7 +46,8 @@
 
     .reset-btn{
         color: white;
-        font-size: 40px;
+        font-size: 55px;
+        border-radius: 10px;
     }
 
     .first-choise{
@@ -67,14 +69,15 @@
 
     .show-btn{
         margin-top: 50px;
-        
     }
+
     #first-btn, #second-btn {
         width: 90%;
         font-size: 60px;
         padding:10px ;
         margin:30px 0;
         text-align: center;
+        border-radius: 10px;
     }
 
     .modal-img{
