@@ -47,6 +47,10 @@
         font-size: 80px;
     }
 
+    .unshow-bbm{
+        letter-spacing:10px;
+    }
+    
     .unshow-second{
         color: tomato;
         font-size: 70px;
