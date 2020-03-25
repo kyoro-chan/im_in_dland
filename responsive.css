@@ -47,7 +47,7 @@
     .unshow-second{
         color: tomato;
         font-size: 75px;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
     }
 
     .reset-btn{
@@ -55,7 +55,7 @@
         font-size: 55px;
         border-radius: 10px;
         width: 300px;
-        margin-top: 45px;
+        margin-top: 30px;
     }
 
     .first-choise{
