@@ -5,10 +5,13 @@
         background-size: cover;
     }
 
+    .contaner{
+        width: 100%;
+    }
+
     .title-text{
-        font-size: 70px;
+        font-size: 75px;
         text-align: center;
-        padding-right: 200px;
     }
     
     .plan{
@@ -16,8 +19,7 @@
     }
 
     .plan-left{
-        padding-left: 20px;
-        padding-right: 200px;
+        padding-left: 0px;
     }
 
     #entrance, .arnest, .countrybare{
@@ -25,14 +27,19 @@
         width: 730px;
     }
 
+    .plan-right{
+        padding: 30px 0;
+        margin-left: 0px;
+    }
+
     .plan-right h3{
         font-size: 70px;
-        padding: 30px 0;
+        margin-right: 20px;
     }
 
     .first-choise li{
-        margin: 30px 0;
-        font-size: 65px;
+        margin: 30px 30px 30px 0;
+        font-size: 60px;
         text-align: center;
         padding:20px, 15px;
         border-radius: 10px;
@@ -50,7 +57,7 @@
     .unshow-bbm{
         line-height: 87px;
     }
-    
+
     .unshow-second{
         color: tomato;
         font-size: 70px;
@@ -73,7 +80,7 @@
         top: 150px;
         left: 50px;
         width: 90%;
-        height: 60%;
+        height: 1000px;
     }
     
     .modal h2{
@@ -81,22 +88,19 @@
         text-align: center;
     }
 
-    .show-btn{
-        margin-top: 50px;
-    }
-
     #first-btn, #second-btn {
         width: 90%;
         font-size: 60px;
         padding:10px ;
-        margin:30px 0;
+        margin-bottom:30px;
         text-align: center;
         border-radius: 10px;
     }
 
     .modal-img{
-        height: 450px;
+        height: 420px;
         width: 650px;
+        margin: 50px 0;
     }
 
 }
